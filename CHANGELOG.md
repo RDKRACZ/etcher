@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# v1.6.0
+## (2021-08-11)
+
+* Change LEDs colours [Lorenzo Alberto Maria Ambrosi]
+* Windows images now show the proper warning again [Lorenzo Alberto Maria Ambrosi]
+* Add possibile authorization as a query param [JSReds]
+* update the windows part [Xtraim]
+* Update SUPPORT.md [thambu1710]
+* replace make webpack with npm run webpack [Seth Falco]
+* Add loader on image select [JSReds]
+* add pnp-webpack-plugin [Zane Hitchcox]
+
 # v1.5.121
 ## (2021-07-05)
 
