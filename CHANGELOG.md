@@ -3,6 +3,414 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+# v1.13.0
+## (2022-12-28)
+
+* minor: electron version bump [Peter Makra]
+* patch: handle ext2fs with webpack [Peter Makra]
+* Patch: update etcher-sdk version to fix CM4 issues [builder555]
+
+# v1.12.7
+## (2022-12-20)
+
+* Update dependency i18next to 21.10.0 [Renovate Bot]
+
+# v1.12.6
+## (2022-12-20)
+
+* Update dependency react-i18next to 11.18.6 [Renovate Bot]
+
+# v1.12.5
+## (2022-12-20)
+
+* Patch: made trim setting more readable [builder555]
+
+# v1.12.4
+## (2022-12-19)
+
+* patch: publish to winget with gh action [Begula]
+
+# v1.12.3
+## (2022-12-19)
+
+* Patch: replaced plain text with i18n in settings [builder555]
+
+# v1.12.2
+## (2022-12-16)
+
+* Update dependency webpack-dev-server to 4.11.1 [Renovate Bot]
+
+# v1.12.1
+## (2022-12-16)
+
+* Patch: expose trim ext{2,3,4} setting [builder555]
+
+# v1.12.0
+## (2022-12-14)
+
+* i18n support and Chinese translation [ab77]
+* minor: optimize i18n [r-q]
+
+# v1.11.10
+## (2022-12-13)
+
+* Update dependency webpack-cli to 4.10.0 [Renovate Bot]
+
+# v1.11.9
+## (2022-12-12)
+
+* Update dependency webpack to 5.75.0 [Renovate Bot]
+
+# v1.11.8
+## (2022-12-12)
+
+* Update dependency awscli to 1.27.28 [Renovate Bot]
+
+# v1.11.7
+## (2022-12-12)
+
+* Update dependency uuid to 8.3.2 [Renovate Bot]
+
+# v1.11.6
+## (2022-12-12)
+
+* Update dependency tslib to 2.4.1 [Renovate Bot]
+* Patch: run linux build on ubuntu-20.04 [Edwin Joassart]
+
+# v1.11.5
+## (2022-12-10)
+
+* Update dependency ts-loader to 8.4.0 [Renovate Bot]
+
+# v1.11.4
+## (2022-12-10)
+
+* Update dependency styled-components to 5.3.6 [Renovate Bot]
+
+# v1.11.3
+## (2022-12-10)
+
+* Update dependency terser-webpack-plugin to 5.3.6 [Renovate Bot]
+
+# v1.11.2
+## (2022-12-10)
+
+* Update dependency string-replace-loader to 3.1.0 [Renovate Bot]
+
+# v1.11.1
+## (2022-12-10)
+
+* Update dependency sinon to 9.2.4 [Renovate Bot]
+
+# v1.11.0
+## (2022-12-10)
+
+* Update dependency shyaml to 0.6.2 [Renovate Bot]
+
+# v1.10.29
+## (2022-12-10)
+
+* Update dependency awscli to 1.27.27 [Renovate Bot]
+
+# v1.10.28
+## (2022-12-10)
+
+
+<details>
+<summary> Update dependency rendition to 19.3.2 [Renovate Bot] </summary>
+
+> ## rendition-19.3.2
+> ### (2020-12-29)
+> 
+> * Add Breadcrumbs component export [JSReds]
+> 
+> ## rendition-19.3.1
+> ### (2020-12-29)
+> 
+> * Fix max-width on breadcrumbs container [JSReds]
+> 
+> ## rendition-19.3.0
+> ### (2020-12-29)
+> 
+> * Add Breadcrumbs component [JSReds]
+> 
+
+</details>
+
+# v1.10.27
+## (2022-12-09)
+
+* Update dependency redux to 4.2.0 [Renovate Bot]
+
+# v1.10.26
+## (2022-12-09)
+
+* Update dependency pretty-bytes to 5.6.0 [Renovate Bot]
+
+# v1.10.25
+## (2022-12-09)
+
+* Update dependency pnp-webpack-plugin to 1.7.0 [Renovate Bot]
+
+# v1.10.24
+## (2022-12-09)
+
+* Update dependency node-ipc to 9.2.1 [Renovate Bot]
+
+# v1.10.23
+## (2022-12-09)
+
+* Update dependency mocha to 8.4.0 [Renovate Bot]
+
+# v1.10.22
+## (2022-12-09)
+
+* Update dependency mini-css-extract-plugin to 1.6.2 [Renovate Bot]
+
+# v1.10.21
+## (2022-12-09)
+
+* Update dependency lint-staged to 10.5.4 [Renovate Bot]
+
+# v1.10.20
+## (2022-12-09)
+
+* Update dependency husky to 4.3.8 [Renovate Bot]
+
+# v1.10.19
+## (2022-12-09)
+
+* Update dependency esbuild-loader to 2.20.0 [Renovate Bot]
+
+# v1.10.18
+## (2022-12-09)
+
+* Update dependency electron-updater to 4.6.5 [Renovate Bot]
+
+# v1.10.17
+## (2022-12-09)
+
+* Update dependency electron-notarize to 1.2.2 [Renovate Bot]
+
+# v1.10.16
+## (2022-12-08)
+
+* Update dependency awscli to 1.27.26 [Renovate Bot]
+
+# v1.10.15
+## (2022-12-08)
+
+* Update dependency electron-builder to 22.14.13 [Renovate Bot]
+
+# v1.10.14
+## (2022-12-08)
+
+* Update dependency debug to 4.3.4 [Renovate Bot]
+
+# v1.10.13
+## (2022-12-08)
+
+* Update dependency awscli to 1.27.25 [Renovate Bot]
+
+# v1.10.12
+## (2022-12-08)
+
+* Update dependency css-loader to 5.2.7 [Renovate Bot]
+
+# v1.10.11
+## (2022-12-07)
+
+* Update dependency awscli to 1.27.24 [Renovate Bot]
+
+# v1.10.10
+## (2022-12-07)
+
+* Update dependency @types/node to 14.18.34 [Renovate Bot]
+
+# v1.10.9
+## (2022-12-06)
+
+* Enable repository configuration [ab77]
+
+# v1.10.8
+## (2022-12-05)
+
+* Update dependency chai to 4.3.7 [Renovate Bot]
+
+# v1.10.7
+## (2022-12-05)
+
+* Use core workflow for GitHub publish [ab77]
+
+# v1.10.6
+## (2022-12-02)
+
+* Dummy update to fix asset version issue [Edwin Joassart]
+
+# v1.10.5
+## (2022-12-02)
+
+* Patch: run linux build on ubuntu-18.04 [Edwin Joassart]
+
+# v1.10.4
+## (2022-12-01)
+
+* patch: remove Homebrew instructions in README [Patrick Linnane]
+
+# v1.10.3
+## (2022-12-01)
+
+* Allow external contributors [ab77]
+
+# v1.10.2
+## (2022-11-25)
+
+* Fix missing analytics token [Edwin Joassart]
+
+# v1.10.1
+## (2022-11-21)
+
+* Fixing call to electron block screensaver methods invocation [Aurelien VALADE]
+
+# v1.10.0
+## (2022-11-10)
+
+* testing renovate [builder555]
+
+# v1.9.0
+## (2022-11-08)
+
+* Update dependency awscli to 1.27.5 [Renovate Bot]
+
+# v1.8.17
+## (2022-11-08)
+
+* Update dependency @types/react-dom to 16.9.17 [Renovate Bot]
+
+# v1.8.16
+## (2022-11-08)
+
+* Update dependency @types/react to 16.14.34 [Renovate Bot]
+
+# v1.8.15
+## (2022-11-08)
+
+* CI: generalise artefact handling [ab77]
+
+# v1.8.14
+## (2022-11-08)
+
+* Update dependency @types/node to 14.18.33 [Renovate Bot]
+
+# v1.8.13
+## (2022-11-08)
+
+* Update dependency @types/copy-webpack-plugin to 6.4.3 [Renovate Bot]
+
+# v1.8.12
+## (2022-11-08)
+
+* Update dependency @fortawesome/fontawesome-free to 5.15.4 [Renovate Bot]
+
+# v1.8.11
+## (2022-11-08)
+
+* Update dependency @balena/lint to 5.4.2 [Renovate Bot]
+
+# v1.8.10
+## (2022-11-08)
+
+
+<details>
+<summary> Update dependency sys-class-rgb-led to 3.0.1 [Renovate Bot] </summary>
+
+> ## sys-class-rgb-led-3.0.1
+> ### (2021-07-01)
+> 
+> * patch: Delete Codeowners [Vipul Gupta]
+> 
+</details>
+
+# v1.8.9
+## (2022-11-08)
+
+* Update dependency semver to 7.3.8 [Renovate Bot]
+
+# v1.8.8
+## (2022-11-08)
+
+* Update dependency omit-deep-lodash to 1.1.7 [Renovate Bot]
+
+# v1.8.7
+## (2022-11-08)
+
+* Update dependency immutable to 3.8.2 [Renovate Bot]
+
+# v1.8.6
+## (2022-11-08)
+
+* Update dependency electron-rebuild to 3.2.9 [Renovate Bot]
+
+# v1.8.5
+## (2022-11-08)
+
+* Update dependency electron-mocha to 9.3.3 [Renovate Bot]
+
+# v1.8.4
+## (2022-11-08)
+
+* Update dependency @types/webpack-node-externals to 2.5.3 [Renovate Bot]
+
+# v1.8.3
+## (2022-11-08)
+
+* Update dependency @types/tmp to 0.2.3 [Renovate Bot]
+
+# v1.8.2
+## (2022-11-08)
+
+* Generate release notes with git [ab77]
+
+# v1.8.1
+## (2022-11-07)
+
+* Update dependency @types/mime-types to 2.1.1 [Renovate Bot]
+
+# v1.8.0
+## (2022-11-07)
+
+* Update scripts/resin digest to 652fdd4 [Renovate Bot]
+
+# v1.7.15
+## (2022-11-07)
+
+* Build targets individually [ab77]
+
+# v1.7.14
+## (2022-11-07)
+
+* Update dependency lodash to 4.17.21 [SECURITY] [Renovate Bot]
+
+# v1.7.13
+## (2022-11-07)
+
+* Update release notes on finalize [ab77]
+
+# v1.7.12
+## (2022-11-07)
+
+* Avoid duplicate releases [ab77]
+
+# v1.7.11
+## (2022-11-07)
+
+* Only run finalize on Linux runners [ab77]
+
+# v1.7.10
+## (2022-11-07)
+
+* Switch to Flowzone [ab77]
+
 # v1.7.9
 ## (2022-04-22)
 

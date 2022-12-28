@@ -24,6 +24,7 @@ import * as settings from '../../models/settings';
 import * as analytics from '../../modules/analytics';
 import { open as openExternal } from '../../os/open-external/services/open-external';
 import { Modal } from '../../styled-components';
+import * as i18next from 'i18next';
 
 interface Setting {
 	name: string;
@@ -34,13 +35,17 @@ async function getSettingsList(): Promise<Setting[]> {
 	const list: Setting[] = [
 		{
 			name: 'errorReporting',
-			label: 'Anonymously report errors and usage statistics to balena.io',
+			label: i18next.t('settings.errorReporting'),
+		},
+		{
+			name: 'autoBlockmapping',
+			label: i18next.t('settings.trimExtPartitions'),
 		},
 	];
 	if (['appimage', 'nsis', 'dmg'].includes(packageType)) {
 		list.push({
 			name: 'updatesEnabled',
-			label: 'Auto-updates enabled',
+			label: i18next.t('settings.autoUpdate'),
 		});
 	}
 	return list;
@@ -58,6 +63,7 @@ const InfoBox = (props: any) => (
 		<TextWithCopy code text={props.value} copy={props.value} />
 	</Box>
 );
+
 export function SettingsModal({ toggleModal }: SettingsModalProps) {
 	const [settingsList, setCurrentSettingsList] = React.useState<Setting[]>([]);
 	React.useEffect(() => {
@@ -92,7 +98,7 @@ export function SettingsModal({ toggleModal }: SettingsModalProps) {
 		<Modal
 			titleElement={
 				<Txt fontSize={24} mb={24}>
-					Settings
+					{i18next.t('settings.settings')}
 				</Txt>
 			}
 			done={() => toggleModal(false)}
@@ -113,7 +119,7 @@ export function SettingsModal({ toggleModal }: SettingsModalProps) {
 				})}
 				{UUID !== undefined && (
 					<Flex flexDirection="column">
-						<Txt fontSize={24}>System Information</Txt>
+						<Txt fontSize={24}>{i18next.t('settings.systemInformation')}</Txt>
 						<InfoBox label="UUID" value={UUID.substr(0, 7)} />
 					</Flex>
 				)}
